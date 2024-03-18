@@ -40,4 +40,5 @@ app.get('/services', function(req, res){
 
 // Start serwera
 app.listen(3001, function(){
-"app.js" 
+    console.log('Aplikacja OK');
+});
