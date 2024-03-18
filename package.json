@@ -4,6 +4,7 @@
   "description": "DevOps - przykladowa aplikacja",
   "main": "app.js",
   "scripts": {
+    "deploy": "forever stopall && gulp buildjs && forever start forever.json"
   },
   "author": "",
   "license": "ISC",
